@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>trabalhando com imagens</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/joao-P.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/joao-M.png" type="image/png">
+        <img src="imagens/joao-G.png" alt="joao grande">
+    </picture>
+
+    <h1>audios</h1>
+    <p>aprendendo a reproduzir audios </p>
+    <!--
+    <audio src="midias/natal.mp3" controls></audio>
+        MP3 WAV OGG -->
+
+        <audio preload="metadata" controls loop>
+            <source src="midias/natal.mp3" type="audio/mpeg">
+            <source src="midias/natal.ogg" type="audio/ogg">
+            <source src="midias/natal.wav" type="audio/wav">
+            <p>infelizmente seu navegador não consegue reproduzir áudio. <a href="midias/natal.mp3">clique aqui para baixar o arquivo</a></p>
+        </audio>
+
+
+</body>
+</html> 

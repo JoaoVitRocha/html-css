@@ -1,0 +1,180 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'android';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #84E1AD;
+}
+
+header{
+    background-image: linear-gradient(360deg, #1a5c38d4 30%, #2EA764, #84E1AD);
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+
+header > h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    padding: 0 20px;
+}
+
+header >p{
+  padding: 0 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+nav{
+    padding-bottom: 15px;
+   
+}
+
+
+ nav >a{
+  width: 100px;
+   text-decoration: none;
+   font-size: 1.2em;
+   padding-top: 8px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 15px;
+   color: white;
+   font-weight: bold;
+ }
+
+ nav > a:hover{
+   background-color: #2ea76493;
+   
+ }
+
+ main{
+    max-width: 1200px;
+    margin: 0 10%;
+    background-color: white;
+    
+ }
+
+ main > h1{
+    padding-top: 20px;
+    margin: 0 20px;
+    color: #227045;
+    font-family: 'android';
+    
+ }
+
+ main >p{
+    margin: 20px 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+ }
+
+ .link-ex{
+    background-color: #2ea76486;
+    color: #184e30;
+    font-weight: bold;
+    padding: 0 5px;
+ }
+
+ .link-ex::after{
+    content: '🔗';
+    text-shadow: 1px 0px 0px black;
+
+ }
+
+
+ main > h2{
+    padding: 1px 8px;
+    margin: 0 20px;
+    font-family: 'android';
+    font-size: 1.2em;
+    color: #1e613c;
+    background-image: linear-gradient(90deg, #84E1AD, white);
+
+ }
+
+ .moça{
+  width: 100%;
+  text-align: center;
+ }
+
+ .mulher{
+   width: 95%;
+   padding: 30px 0;
+ }
+
+ footer{
+   background-color: #184e30;
+   
+ }
+
+ aside{
+   background-color: #a2f5c7;
+   margin: 10px;
+   margin-top: 20px;
+   padding-bottom: 25px;
+   border-radius: 20px;
+
+ }
+
+ aside > h3{
+   font-size: 1.3em;
+   color: white;
+   background-color: #2f995f;
+   padding: 5px 10px;
+   margin: 0;
+   border-radius: 15px 15px 0 0;
+ }
+
+ aside p{
+   padding: 10px;
+ }
+
+ ul{
+   list-style-type: '\2714\0020\0020';
+   columns: 2;
+   list-style-position: inside;
+ }
+
+ .andro{
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+ }
+
+ .youtube{
+   margin-top: 50px;
+ }
+
+ .video{
+   background-color: #2e955c;
+   height: auto;
+   text-align: center;
+   padding-bottom: 20px;
+ }
+
+ .para{
+   text-align: center;
+   padding: 20px 15px;
+   margin: 0;
+ }
+
+ .destaque{
+  color: #0b552c;
+  font-weight: bold;
+ }
+
+ footer >p{
+   padding: 8px 0;
+   margin: 0;
+   color: white;
+   text-align: center;
+   margin-top: 40px;
+ }
