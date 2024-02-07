@@ -15,7 +15,7 @@
     --cor1: #12263A;
     --cor2: #615D6C;
     --cor3: #6F8AB7;
-    --cor4: #89BBFE;
+    --cor4: #4A2208;
     --cor5: #F4E7D7;
 
     --fonte-padrao: arial, sans-serif;
@@ -24,8 +24,8 @@
 }
 
 body{
-    background-image: url('../imagens/barba-fundo.jpg');
-    background-size: cover ;
+    background-image: url('../imagens/parede-sala.jpg');
+    
 }
 
 p{
@@ -96,38 +96,53 @@ main{
     background-color: var(--cor5);
     max-width: 1410px;
     margin: auto;
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
     margin-bottom: 30px;
     border-radius: 0px 0px 20px 20px;
 }
 main .s1{
+    background-image: url('../imagens/PAPEL-BARBA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #ffffff;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 .s1 h2{
+    background-color: #fff;
+    width: 300px;
     font-family: var(--fonte-decorada);
     font-size: 2.5em;
+    margin: auto;
     text-align: center;
-    padding: 44px 0px;
+    padding: 10px;
+    border-radius: 20px;
     color: var(--cor1);
 }
 
 .s1 p{
+    background-color: #fff;
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-size: 1.3em;
     max-width: 1130px;
-    margin: auto;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+    text-align: center;
 }
  .s1 img{
+    background-color: #fff;
     display: block;
-    margin: auto;
-    padding: 20px;
-    padding-top: 40px;
+    margin: 50px auto 0px auto;
+    padding: 40px;
  }
 
  main .s2{
+    background-image: url('../imagens/PAPEL-BARBA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     background-color: #fff;
     padding: 10px;
     padding-top: 130px;
@@ -137,16 +152,18 @@ main .s1{
     font-family: var(--fonte-decorada);
     font-size: 2.5em;
     text-align: center;
-    padding: 0px 0px 44px 0px;
+    padding: 0px 0px 94px 0px;
  }
 
  .s2 p{
+    position: relative;
+    top: -100px;
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     font-weight: bold;
     display: inline-block;
     width: 500px;
-    vertical-align: auto;
+    
  }
 
  .s2 img{
@@ -161,13 +178,92 @@ main .s1{
  #foto2{
     margin-right: 15%;
  }
+
+ .a1{
+    width: 1210px;
+    margin: auto;
+    padding-bottom: 90px;
+ }
+
+ main .s3{
+    background-image: url('../imagens/barber.jpg');
+    background-repeat: repeat;
+    background-size: 1500px 1000px;
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 50px;
+ }
+
+ .s3 h2{
+    background-color: #fff;
+    width: 500px;
+    font-family: var(--fonte-decorada);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 0px auto 34px auto;
+    padding: 10px;
+    border-radius: 20px;
+ }
+
+ .s3 p{
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    font-size: 1.3em;
+    max-width: 1130px;
+    margin: auto;
+    text-align: center;
+ }
+
+ .s3 .fundo{
+    position: relative;
+    background-image: url('../imagens/ambiente.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-color: #12263A;
+    margin: 50px auto;
+    width: 1300px;
+    height: 700px;
+    border-radius: 20px;
+ }
+
+  div #p1{
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    font-size: 1.4em;
+    color: var(--cor1);
+    border-radius: 20px;
+ }
+
+ div #p2{
+    background-color: #fff;
+    max-width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 450px;
+    left: 800px;
+    font-size: 1.4em;
+    color: var(--cor1);
+    border-radius: 20px;
+ }
+
+ div .fundo img{
+    
+ }
+ 
+
 footer{
     background-color: var(--cor2);
     padding: 10px;
-    text-align: center;
 }
 
 footer p{
+    text-align: center;
     font-size: 1.2em;
     color: rgb(255, 255, 255);
 }
