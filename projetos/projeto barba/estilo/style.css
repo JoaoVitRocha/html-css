@@ -33,14 +33,19 @@ p{
     text-indent: 20px;
 }
 
+strong{
+    color: #12263A;
+    font-weight: bolder;
+}
+
 header{
-   /* background-image: url('../imagens/barber2.jpg'); */
     background-repeat: no-repeat;
     display: inline-block;
     width: 100%;
     background-size: cover;
     padding: 10px 10px 0px 10px;
     box-sizing: border-box;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 }
 
 .cabeça{
@@ -55,11 +60,11 @@ header{
 header nav{
     padding: 5px;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 18px;
     margin-right: 40px;
 }
 nav>a{
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     font-family: var(--fonte-decorada);
     font-size: 1.4em;
     font-weight: bold;
@@ -70,6 +75,13 @@ nav>a{
     border-radius: 10px;
     letter-spacing: 2px;
     text-shadow: 2px 2px 0px black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.516);
+}
+
+nav>a:hover{
+    background-color: #4a2208e8;
+    color: #84563d;
+    text-decoration: underline;
 }
 
 header  h1{
@@ -87,12 +99,13 @@ header  p{
     font-family: var(--fonte-destaque);
     font-size: 1.5em;
     font-weight: 600;
-    color:var(--cor2);
+    color:var(--cor4);
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.707);
     padding: 10px 0px;
 }
 
 main{
+    background-image: url('../imagens/barber.jpg');
     background-color: var(--cor5);
     max-width: 1410px;
     margin: auto;
@@ -105,7 +118,7 @@ main .s1{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffffff;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 4px 10px;
 }
 
 .s1 h2{
@@ -113,15 +126,17 @@ main .s1{
     width: 300px;
     font-family: var(--fonte-decorada);
     font-size: 2.5em;
-    margin: auto;
+    margin: 20px auto 20px auto;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
     color: var(--cor1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 }
 
 .s1 p{
     background-color: #fff;
+    color: var(--cor4);
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-size: 1.3em;
@@ -130,68 +145,104 @@ main .s1{
     margin: 10px auto;
     border-radius: 20px;
     text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
 }
  .s1 img{
     background-color: #fff;
     display: block;
     margin: 50px auto 0px auto;
     padding: 40px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
  main .s2{
     background-image: url('../imagens/PAPEL-BARBA.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
     background-color: #fff;
     padding: 10px;
     padding-top: 130px;
  }
 
  .s2 h2{
+    background-color: #fff;
+    width: 500px;
     font-family: var(--fonte-decorada);
     font-size: 2.5em;
     text-align: center;
-    padding: 0px 0px 94px 0px;
+    margin: 0px auto 94px auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
  .s2 p{
+    background-color: #fff;;
+    color: var(--cor4);
     position: relative;
     top: -100px;
     font-family: var(--fonte-padrao);
     font-size: 1.3em;
     font-weight: bold;
     display: inline-block;
-    width: 500px;
+    padding: 20px;
+    margin-top: 150px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.672);
     
  }
 
  .s2 img{
     display: inline-block;
-    width: 500px;
+    width: 40%;
  }
 
  #foto1{
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
  #foto2{
-    margin-right: 15%;
+    margin-right: 10%;
+    padding: 25px;
+    background-color: #fff;
+    box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.672);
+ }
+
+ .secao{
+    width: 100%;
  }
 
  .a1{
-    width: 1210px;
+    width: 90%;
     margin: auto;
     padding-bottom: 90px;
  }
 
  main .s3{
     background-image: url('../imagens/barber.jpg');
-    background-repeat: repeat;
-    background-size: 1500px 1000px;
-    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--cor5);
     padding: 10px;
-    padding-top: 50px;
+    padding-top: 30px;
+    border-left:30px solid #FFF5EB;
+    border-right:30px solid #FFF5EB;
+    
+ }
+
+ .s3 .f1{
+    background-color: #fff;
+    max-width: 1280px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
  .s3 h2{
@@ -201,17 +252,21 @@ main .s1{
     font-size: 2.5em;
     text-align: center;
     margin: 0px auto 34px auto;
-    padding: 10px;
+    padding: 50px 0px 0px 0px;
     border-radius: 20px;
  }
 
  .s3 p{
+    background-color: #fff;
+    color: var(--cor4);
+    padding: 0px 10px 40px 10px;
     font-family: var(--fonte-padrao);
     font-weight: bold;
     font-size: 1.3em;
     max-width: 1130px;
     margin: auto;
     text-align: center;
+    border-radius: 20px;
  }
 
  .s3 .fundo{
@@ -222,7 +277,7 @@ main .s1{
     background-attachment: fixed;
     background-position: center bottom;
     background-color: #12263A;
-    margin: 50px auto;
+    margin: 25px auto;
     width: 1300px;
     height: 700px;
     border-radius: 20px;
@@ -236,8 +291,9 @@ main .s1{
     top: 150px;
     left: 50px;
     font-size: 1.4em;
-    color: var(--cor1);
+    color: var(--cor4);
     border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
  div #p2{
@@ -248,22 +304,65 @@ main .s1{
     top: 450px;
     left: 800px;
     font-size: 1.4em;
-    color: var(--cor1);
+    color: var(--cor4);
     border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
 
- div .fundo img{
-    
+ .fundo img{
+    position: absolute;
+    top: 530px;
+    left: -25px;
+ }
+
+ main .s4{
+    background-image: url('../imagens/PAPEL-BARBA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    background-color: #fff;
+    padding: 10px;
+    padding-top: 50px;
+    margin-bottom: 10px;
+ }
+
+ .s4 h3{
+    background-color: #fff;
+    font-family: var(--fonte-decorada);
+    font-size: 2.5em;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto 50px auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
+ }
+
+ .s4 img{
+    background-image: url('../imagens/barber.jpg');
+    display: block;
+    padding: 20px;
+    margin:  50px auto;
+    width: 600px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.672);
  }
  
 
 footer{
-    background-color: var(--cor2);
+    background-color: var(--cor5);
     padding: 10px;
 }
 
+footer a{
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bolder;
+
+}
+
 footer p{
+    font-weight: bold;
     text-align: center;
-    font-size: 1.2em;
-    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    color: var(--cor4);
 }
