@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --fonte-padrao: "Oswald", sans-serif;
+    --fonte-destaque: "Permanent Marker", cursive;
+
+    --cor1: #D72638;
+    --cor2: #050201;
+    --cor3: #101010;
+    --cor4: #1E1E1E;
+}
+
+body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    position: relative;
+    background-image: url('imagens/fundo.jpg');
+    background-size: cover;
+    background-position: bottom right;
+    max-width: 1534px;
+    height: auto;
+
+}
+
+header .bola{
+    background-color: #fffcfcd2;
+    width: 33%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+
+header img{
+    width: 99%;
+    display: block;
+    margin: auto;
+  
+
+}
+
+
+
