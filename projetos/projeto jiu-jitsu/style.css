@@ -105,7 +105,8 @@ nav a:hover{
 }
 
 section.sobre-academia{
-    background-color: var(--cor2);
+    
+    background-image: linear-gradient(to top, black, var(--cor4), var(--cor2));
     padding: 20px;
 }
 
@@ -118,31 +119,95 @@ section.sobre-academia h2{
     margin: 30px 0px;
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659);
     letter-spacing: 2px;
+   
 }
 
 article.lutas{
-    display:inline-block;
-    background-color: #fff;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+    margin-top: 80px;
     width: 100%;
-    text-align: center;
 }
 
 article.lutas img{
     width: 25vw;
     margin: 30px;
-}
-
-article.lutas .texto{
-    display: inline-block;
-   
-  
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
 }
 
 article.lutas p{
+    color: white;
     font-size: 1.6em;
     display:block;
-    width: 30vw;
+    width: 35vw;
     margin: 30px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+section#trabalho{
+   background-color: var(--cor4);
+    padding: 10px;
+    padding-top: 0px;
+}
+
+section#trabalho h2{
+    background-image: linear-gradient(to right, transparent, var(--cor1), transparent);
+    font-family: var(--fonte-destaque);
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659);
+    letter-spacing: 2px;
+}
+
+div.professores{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.equipe{
+    text-align: center;
+}
+
+div.equipe p{
+    width: 40vw;
+    color: white;
+    font-size: 1.6em;
+    display:block;
+    margin: 30px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+div.equipe a{
+    display: inline-block;
+    font-family: var(--fonte-destaque);
+    font-size: 1.8vw;
+    text-decoration: none;
+    background-color: #D72638;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+div.equipe a:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+div.turma{
+    background-color: var(--cor2);
+    width: 45vw;
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.526); 
+
+}
+
+div.turma img{
+    width: 40vw;
+    margin: 40px 0px 60px 0px;
+
 }
 
