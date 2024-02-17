@@ -27,9 +27,9 @@ header{
     background-size: cover;
     background-position: bottom right;
     max-width: 1534px;
-    height: 47vw;
+    height: 47.5vw;
     padding-top: 10px;
-
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.642);
 }
 
 header .bola{
@@ -38,6 +38,7 @@ header .bola{
     height: auto;
     border-radius: 50%;
     margin: auto;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.474);
     
 }
 
@@ -103,4 +104,45 @@ nav a:hover{
     text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
 }
 
+section.sobre-academia{
+    background-color: var(--cor2);
+    padding: 20px;
+}
+
+section.sobre-academia h2{
+    background-image: linear-gradient(to right, transparent, var(--cor1), transparent);
+    font-family: var(--fonte-destaque);
+    font-size: 2.3em;
+    color: white;
+    text-align: center;
+    margin: 30px 0px;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659);
+    letter-spacing: 2px;
+}
+
+article.lutas{
+    display:inline-block;
+    background-color: #fff;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+article.lutas img{
+    width: 25vw;
+    margin: 30px;
+}
+
+article.lutas .texto{
+    display: inline-block;
+   
+  
+}
+
+article.lutas p{
+    font-size: 1.6em;
+    display:block;
+    width: 30vw;
+    margin: 30px;
+}
 
