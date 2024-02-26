@@ -202,12 +202,111 @@ div.turma{
     width: 45vw;
     text-align: center;
     box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.526); 
-
 }
 
 div.turma img{
     width: 40vw;
     margin: 40px 0px 60px 0px;
+}
+
+section.sobre-mim{
+    background-image:linear-gradient(to bottom,var(--cor4),var(--cor2) 45%);
+    position: relative;
+    padding-bottom: 150px;
+}
+
+.letra{
+    font-family: var(--fonte-destaque);
+    color: white;
+}
+
+.sobre-mim #sob{
+    background-color: #ffffff;
+    color: #D72638;
+    max-width: 45vw;
+    font-size: 3em;
+    padding: 10px 40px;
+    margin-top: 200px;
+    margin-left: 15vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+.sobre-mim #mim{
+    background-color: #D72638;
+    text-align: right;
+    max-width: 50vw;
+    font-size: 3em;
+    padding: 10px 40px;
+    margin-top: 100px;
+    margin-left: 26vw;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+section.sobre-mim img{
+    position: absolute;
+    max-width: 500px;
+    top: -6vw;
+    left: 33vw;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+section.sobre-mim p{
+    color: white;
+    font-size: 2.1em;
+    max-width: 80vw;
+    text-align: center;
+    margin: auto;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+    margin-top: 70px;
+}
+
+section.final{
+    background-image: url('imagens/jitsu.jpg');
+    background-color: #fff;
+    background-size: cover;
+    background-position: center center;
+    height: 50vw;
+    text-align: center;
 
 }
+
+.final p{
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    background-color: white;
+    color: #D72638;
+    font-weight: bold;
+    max-width: 60vw;
+    text-align: center;
+    margin:auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+.final a{
+    display: inline-block;
+    font-family: var(--fonte-destaque);
+    font-size: 1.8vw;
+    text-decoration: none;
+    background-color: #D72638;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 27vw;
+}
+
+.final a:hover{
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.659); 
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.863);
+}
+
+
+
+
 
