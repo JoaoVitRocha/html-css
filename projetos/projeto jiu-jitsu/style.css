@@ -277,7 +277,7 @@ section.final{
 .final p{
     font-family: var(--fonte-padrao);
     font-size: 2em;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: #D72638;
     font-weight: bold;
     max-width: 60vw;
